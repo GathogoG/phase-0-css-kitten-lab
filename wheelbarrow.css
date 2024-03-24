@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Set background image */
+body {
+    background-image: url('/images/beautiful-day.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Wheelbarrow styles */
+  #wheelbarrow {
+    background: url('/images/wheelbarrow.png') no-repeat;
+    width: 600px;
+    height: 400px;
+    position: relative;
+  }
+  
+  #wheelbarrow-foreground {
+    background: url('/images/wheelbarrow-foreground.png') no-repeat;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #basket {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+  }
+
+  
+  /* Add more styles for other elements as needed */
+  
